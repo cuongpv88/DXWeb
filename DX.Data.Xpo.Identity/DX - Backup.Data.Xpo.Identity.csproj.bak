@@ -9,7 +9,7 @@
 
 	<PropertyGroup>
 		<!--<TargetFramework>net6.0</TargetFramework>-->
-		<TargetFrameworks>net462;net8.0;net8.0</TargetFrameworks>
+		<TargetFrameworks>net461;netstandard2.1;net6.0</TargetFrameworks>
 		<LangVersion>7.3</LangVersion>
 		<PackageProjectUrl>https://github.com/donwibier/DXWeb/tree/master/DX.Data.Xpo.Identity</PackageProjectUrl>
 		<!--<PackageIconUrl>https://www.devexpress.com/favicon.ico</PackageIconUrl>-->
@@ -71,7 +71,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="DevExpress.Xpo" Version="24.2.6-pre-25054" />		
+		<PackageReference Include="DevExpress.Xpo" Version="21.2.7" />		
 
 	</ItemGroup>
 

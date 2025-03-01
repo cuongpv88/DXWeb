@@ -11,6 +11,9 @@
 		<PackageProjectUrl>https://github.com/donwibier/DXWeb/tree/master/DX.Data.EF</PackageProjectUrl>
 	</PropertyGroup>
 	<ItemGroup>
+	  <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.6.0" />
+	</ItemGroup>
+	<ItemGroup>
 		<ProjectReference Include="..\DX.Data.EF\DX.Data.EF.csproj" />
 	</ItemGroup>
 	<ItemGroup>
@@ -18,7 +21,7 @@
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)' == 'net462'">
 		<PackageReference Include="AutoMapper" Version="10.1.1" />
-		<PackageReference Include="EntityFramework" Version="6.4.4" />
+		<PackageReference Include="EntityFramework" Version="6.5.1" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)' != 'net462'">
 		<PackageReference Include="AutoMapper" Version="13.0.1" />
@@ -34,10 +37,10 @@
 	</ItemGroup>-->
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
-		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />		
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />		
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)' == 'net9.0'">
-		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
 	</ItemGroup>
 
 </Project>

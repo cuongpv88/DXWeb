@@ -18,6 +18,9 @@
 	<ItemGroup Condition="'$(TargetFramework)' != 'net462'">
 		<PackageReference Include="AutoMapper" Version="13.0.1" />
 	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.6.0" />
+	</ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DX.Data.Xpo.AutoMapper\DX.Data.Xpo.AutoMapper.csproj" />
     <ProjectReference Include="..\DX.Data.Xpo.Identity\DX.Data.Xpo.Identity.csproj" />
